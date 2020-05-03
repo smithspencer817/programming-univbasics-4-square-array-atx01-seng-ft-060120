@@ -3,6 +3,7 @@ def square_array(array)
   newArr = []
   while array[i] do {
     newArr.push(array[i] ** 2)
+    i += 1
   }
   end
   newArr
